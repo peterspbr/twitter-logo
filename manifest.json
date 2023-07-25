@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Logo",
+  "version": "1.0",
+
+  "description": "Replaces the ugly X and return the old Twitter logo.",
+
+  "icons": {
+    "48": "icons/twitter.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["twitter-logo.js"]
+    }
+  ]
+}
+
