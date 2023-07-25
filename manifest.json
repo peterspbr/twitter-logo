@@ -4,6 +4,7 @@
   "version": "1.0",
 
   "description": "Replaces the ugly X and return the old Twitter logo.",
+  "permissions": ["activeTab", "tabs"],
 
   "icons": {
     "48": "icons/twitter.png"
